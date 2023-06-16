@@ -13,5 +13,9 @@ HOW-TO-USE:
 3. Open the command line in the src folder;
 4. Run the following command: py main.py;
 5. If you get an error, make sure the src folder has an "in" folder and a "work" folder;
-6. If main.py runs succesfully, you should get the message: "All frames saved as JPEG images in work."
-7. Now you can run run.exe and it will display the animation in the command prompt.
+6. If main.py runs succesfully, you should get the message: "All frames saved as JPEG images in work.";
+7. Make sure to move your acquired animation.txt to the same directory as run.exe;
+8. Now you can run run.exe and it will display the animation in the command prompt;
+
+NOTE: run.exe will run whatever animation.txt is in the same directory as the executable
+IF YOU DO NOT SEE YOUR ANIMATION, MAKE SURE YOU HAVE THE CORRECT ANIMATION.TXT
