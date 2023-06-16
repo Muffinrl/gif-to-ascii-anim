@@ -3,7 +3,7 @@ Converts a .gif file to an executable and .txt file to play the .gif as ASCII an
 
 HOW-TO-DOWNLOAD:
 If you only want to download the sample, you need to download run.exe and animation.txt.
-If you wish to create your own animations, download the src folder and read the instructions below:
+If you wish to create your own animations, download the src folder and read the instructions below.
 
 I'm actively working on making it as easy to use as possible, for now, here is the crude methodology:
 
