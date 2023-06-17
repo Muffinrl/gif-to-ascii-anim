@@ -1,5 +1,5 @@
 # gif-to-ascii-anim
-Converts a .gif file to an executable and .txt file to play the .gif as ASCII animation in the command prompt
+Converts a .gif file to an executable and .txt file to play the .gif as ASCII animation in the command prompt.
 
 HOW-TO-DOWNLOAD:
 Download the following files from the latest release:
@@ -18,3 +18,9 @@ HOW-TO-USE:
 
 NOTE: run.exe will run whatever animation.txt is in the same directory as the executable
 IF YOU DO NOT SEE YOUR ANIMATION, MAKE SURE YOU HAVE THE CORRECT ANIMATION.TXT
+
+Features in development:
+- ASCII animation to .gif converter
+- Frame editor (cropping out frames)
+- ASCII movies (.mp4)
+- Clean GUI
