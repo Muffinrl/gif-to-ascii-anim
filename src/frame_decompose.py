@@ -5,6 +5,7 @@
 ###
 
 from PIL import Image
+import os
 
 def gif_to_jpg(gif_path, output_folder):
     # Open the .gif file
@@ -29,6 +30,10 @@ def gif_to_jpg(gif_path, output_folder):
 
         # Save the frame as a JPEG image
         output_path = f"{output_folder}/frame_{frame_num}.jpg"
-        frame_rgb.save(output_path, 'JPEG')
+        try:
+            frame_rgb.save(output_path, 'JPEG')
+        # Create the directory if it doesn't exist
+        except FileNotFoundError:
+            os.mkdir(output_folder)
 
     print(f"All frames saved as JPEG images in {output_folder}.")

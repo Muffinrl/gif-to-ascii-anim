@@ -3,3 +3,8 @@
 src/combined_text_file.txt
 src/animation.txt
 src/run.exe
+src/gui.spec
+src/target.gif
+src/target.gif
+*.gif
+src/target.gif
