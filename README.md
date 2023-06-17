@@ -24,3 +24,4 @@ IF YOU DO NOT SEE YOUR ANIMATION, MAKE SURE YOU HAVE THE CORRECT ANIMATION.TXT
 - Frame editor (cropping out frames)
 - ASCII movies (.mp4)
 - Clean GUI
+- Specifying framerate when playing back animations with run.exe
