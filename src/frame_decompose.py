@@ -16,6 +16,7 @@ def gif_to_jpg(gif_path, output_folder):
         # Seek to the current frame
         try:
             gif.seek(frame_num)
+        # Deals with weird/corrupt .gif files where EOF is encountered prematurely
         except EOFError:
             pass
 
