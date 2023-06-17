@@ -14,7 +14,10 @@ def gif_to_jpg(gif_path, output_folder):
     # Iterate over each frame in the .gif
     for frame_num in range(gif.n_frames):
         # Seek to the current frame
-        gif.seek(frame_num)
+        try:
+            gif.seek(frame_num)
+        except EOFError:
+            pass
 
         # Convert the frame to RGBA mode
         frame_rgba = gif.convert('RGBA')
