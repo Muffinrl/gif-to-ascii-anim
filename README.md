@@ -25,3 +25,4 @@ IF YOU DO NOT SEE YOUR ANIMATION, MAKE SURE YOU HAVE THE CORRECT ANIMATION.TXT
 - ASCII movies (.mp4)
 - Clean GUI
 - Specifying framerate when playing back animations with run.exe
+- Centralize animation playback into the main application
